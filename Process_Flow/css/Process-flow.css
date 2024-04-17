@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Add custom styles here if needed */
+/* =====================================================================
+    NAVBAR PAGE START
+===================================================================== */
+.nav-link {
+    margin: 5px;
+    color: black !important;
+    font-weight: bold;
+}
+
+/* =====================================================================
+    NAVBAR PAGE END
+===================================================================== */
+
+
+/* =====================================================================
+    FIRST PAGE START
+===================================================================== */
+.infra-first{
+    padding-top: 50px;
+}
+.infra-line{
+    width: 40px;
+    height: 3px;
+    background-color: #00d285;
+    margin-top: 24px;
+    margin-right: 30px;
+}
+
+.infra-method{
+    width: 40%;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.infra-pera{
+    font-size: 18px;
+}
+
+.infra-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* =====================================================================
+    FIRST PAGE START
+===================================================================== */
+.infra-box-section{
+    padding-top: 80px;
+    background-color: white !important;
+}
+.client-card h4 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+.client-card p {
+    font-size: 18px;
+}
+
+.client-card ul{
+    margin-left: 15px;
+}
+
+.client-card {
+  margin-bottom: 30px;
+  background-color: #ebfaf4;
+  border-radius: 20px;
+  padding: 20px;
+  /* text-align: center; */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  /* text-align: center; */
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.5s ease;
+}
+
+.client-card:hover{
+    transform: scale(1.05);
+}
+
+/* =====================================================================
+    BOX PAGE END
+===================================================================== */
+.infra-box-section{
+    background-color: #f2f5fc;
+}
+/* =====================================================================
+    BOX PAGE END
+===================================================================== */
+
+/* =====================================================================
+    DO YOU HAVE PAGE START
+===================================================================== */
+
+
+.call-to-action {
+    background-color: #ebfaf4;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.third-section-text-1{
+    display: inline;
+}
+
+.third-section-button{
+    margin-top: 28px;
+    border-radius: 50%;
+}
+.cta-text {
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.cta-text-2 {
+    margin-left: 15px;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #c4c4c4;
+}
+
+.button{
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #00b894;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    align-items: center;
+    /* margin-top: 100px; */
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* =====================================================================
+    DO YOU HAVE PAGE START
+===================================================================== */
+
+
+
+/* =======================================================
+START FORM SECTION 
+======================================================= */
+
+.form-containe {
+    padding: 50px 15px;
+  }
+
+.contact-section {
+    border-radius: 20px;
+    padding: 30px;
+}
+.form-line{
+    width: 30px;
+    height: 5px;
+    background-color: green;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 20px;    
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 150px;
+}
+
+.submit-btn {
+    background-color: #00b894; /* Teal color */
+    border: none;
+    color: #fff; /* White color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #00a881; /* Darker teal color on hover */
+}
+
+.contact-section .contact-slowgun{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.address-icon-1 span{
+    width: 65px;
+    height: 65px;
+    background: rgb(234, 229, 229);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 26px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.address-contact{
+    margin-top: 100px;
+}
+
+/* =======================================================
+END FORM SECTION 
+======================================================= */
+
+/* =====================================================================
+FOOTER PAGE START
+===================================================================== */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+.second-footer{
+    background-color: #343a40;
+    color: white;
+    margin-top: 6px;
+    padding: 20px 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-img img{
+    width: 130px;
+}
+
+.footer-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-icon{
+    margin-top: 30px;
+    background-color: black;
+    padding: 12px 13px 12px 13px;
+    border-radius: 50%;
+    color: white;
+}
+
+.footer-phone{
+    margin-top: 15px;
+    font-family: calibri;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.footer-email p i{
+    font-size: 23px;
+    margin-right: 8px;
+}   
+
+.footer-email .email-color{
+    color: #7eb842;
+    font-size: 20px;
+}
+/* =====================================================================
+FOOTER PAGE END
+===================================================================== */
+/* =====================================================================
+    FLOW DIAGRAM START
+===================================================================== */
+.circle {
+    padding: 13px 20px;
+    border-radius: 50%;
+    background-color: #7eb842;
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
+  }
+  
+  .how-it-works.row .col-2 {
+    align-self: stretch;
+  }
+  .how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #7eb842;
+    z-index: 1;
+  }
+  .how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+  }
+  .how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+  }
+  .how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+  }
+  
+  
+  .timeline div {
+    padding: 0;
+    height: 40px;
+  }
+  .timeline hr {
+    border-top: 3px solid #7eb842;
+    margin: 0;
+    top: 17px;
+    position: relative;
+  }
+  .timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+  }
+  .timeline .corner {
+    border: 3px solid #7eb842;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+  .timeline .top-right {
+    left: 50%;
+    top: -50%;
+  }
+  .timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+  }
+  .timeline .top-left {
+    left: -50%;
+    top: -50%;
+  }
+  .timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+  }
+  
+
+  .section-title{
+    color: #7eb842;
+    font-weight: bold;
+    font-size: 40px;
+}
+.section-pera-1{
+    width: auto;
+    /* background-color: green; */
+    font-family: calibri;
+    font-weight: bolder;
+    font-size: 44px;
+}

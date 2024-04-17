@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Add custom styles here if needed */
+/* =====================================================================
+    NAVBAR PAGE START
+===================================================================== */
+.nav-link {
+    margin: 5px;
+    color: black !important;
+    font-weight: bold;
+}
+
+/* =====================================================================
+    NAVBAR PAGE END
+===================================================================== */
+
+
+
+
+/* =====================================================================
+    FIRST PAGE START
+===================================================================== */
+.section {
+    height: auto;
+    /* background-color: #e8f4f3; */
+    background: url("../images/slider01.jpg");
+    /* filter: brightness(60%); */
+    /* opacity: 0.9; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: calibri;
+    color: white; /* Teal color */
+    margin-bottom: 1.25rem;
+}
+
+.section-description {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: white; /* Dark gray color */
+}
+
+.profile-text {
+    padding: 50px 0.938rem;
+  }
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    color: black; /* Teal color */
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 18px;
+    color: #333; /* Dark gray color */
+    margin-bottom: 50px;
+}
+
+.img-fluid{
+    width: 110%;
+    height: 95%;
+}
+
+/* =====================================================================
+    FIRST PAGE END
+===================================================================== */
+
+
+.call-to-action {
+    background-color: #ebfaf4;
+    padding-top: 4.375rem;
+    padding-bottom: 4.375rem;
+    text-align: center;
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.third-section-text-1{
+    display: inline;
+}
+
+.third-section-button{
+    margin-top: 1.75rem;
+    border-radius: 50%;
+}
+.cta-text {
+    margin-left: 1.25rem;
+    font-weight: bolder;
+    font-size: 2.125rem;
+    margin-bottom: 1.25rem;
+}
+
+.cta-text-2 {
+    margin-left: 0.938rem;
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    color: #c4c4c4;
+}
+.custom-btn {
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* =====================================================================
+FOOTER PAGE START
+===================================================================== */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1.25rem 0;
+}
+
+.second-footer{
+    background-color: #343a40;
+    color: white;
+    margin-top: 6px;
+    padding: 1.25rem 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-img img{
+    width: 130px;
+}
+
+.footer-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-right: 1.25rem;
+}
+
+.footer-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-icon{
+    margin-top: 30px;
+    background-color: black;
+    padding: 12px 13px 12px 13px;
+    border-radius: 50%;
+    color: white;
+}
+
+.footer-phone{
+    margin-top: 0.938rem;
+    font-family: calibri;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.footer-email p i{
+    font-size: 23px;
+    margin-right: 8px;
+}   
+
+.footer-email .email-color{
+    color: #7eb842;
+    font-size: 1.25rem;
+}
+/* =====================================================================
+FOOTER PAGE END
+===================================================================== */

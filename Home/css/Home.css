@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Add custom styles here if needed */
+/* =====================================================================
+    NAVBAR PAGE START
+===================================================================== */
+.nav-link {
+    margin: 5px;
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: #042325;
+}
+
+
+/* =====================================================================
+    NAVBAR PAGE END
+===================================================================== */
+
+
+/* =====================================================================
+    FIRST PAGE START
+===================================================================== */
+
+.first-page-bg{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: #042325;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+
+.home-first-title{
+    font-family: "Montserrat Medium";
+    max-width: 60ch;
+    color: white;
+    font-size: 4rem;
+    margin-top: 50px;
+}
+.home-first-pera {
+    font-family: "Montserrat Medium";
+    max-width: 60ch;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+
+@keyframes moveRight {
+    0% {
+        filter: blur(20px);
+    }
+    
+    100% { 
+        filter: blur(0px); 
+    }
+}
+
+/* Initially hide the image */
+.invisible-image {
+    width: 90%;
+    margin-top: 25px;
+}
+
+/* Make the image visible with animation */
+.visible-image {
+    animation: moveRight 1s; /* Adjust duration and timing as needed */
+}
+.home-buttons{
+    padding-left: 12px;
+    padding-top: 50px;
+}
+
+.home-buttons .home-btn-1{
+    width: 10rem;
+    height: 3.438rem;
+    border: 0.125rem solid rgba(126, 184, 66, 1);
+    border-radius: 6.25rem;
+    background: transparent;
+    color: rgba(126, 184, 66, 1);
+    font-family: calibri;
+    font-weight: bold;
+}
+.home-buttons .home-btn-2{
+    width: 10rem;
+    height: 3.438rem;
+    /* border: 0.125rem solid rgba(126, 184, 66, 1); */
+    border-radius: 6.25rem;
+    background: white;
+    color:black;
+    font-weight: bold;
+    font-family: calibri;
+    margin-left: 10px;
+}
+
+
+/* =====================================================================
+    FIRST PAGE END
+===================================================================== */
+
+
+
+/* =====================================================================
+    PARTNERSHIP PAGE START
+===================================================================== */
+.partnership-section{
+    background-image: url("../images/Partner-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    margin-top: 9rem;
+}
+
+.partner-image img{
+    width: 100%;
+    opacity: 0.9;
+}
+
+.partnet-title {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.partenr-btn{
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+#partner-button{
+    margin-top: 50px;
+    padding: 20px 30px;
+    background-color: #042325;
+    width: 10rem;
+    height: 3.438rem;
+    border: none;
+    border-radius: 6.25rem;
+}
+
+.partner-pera{
+    line-height: 40px;
+    margin-top: 40px;
+    font-weight: bolder;
+}
+/* =====================================================================
+    PARTNERSHIP PAGE END
+===================================================================== */
+
+
+/* =====================================================================
+    SECOND PAGE START
+===================================================================== */
+.second-page-section{
+    padding-top: 80px;
+}
+
+.video-section iframe{
+    height: 90vh;
+    width: 100%;
+}
+
+
+
+.video-title{
+    font-size: 60px;
+    color: black;
+}
+
+.video-title span{
+    color: #7eb842;
+}
+
+.video-right-text-1{
+    /* height: 10vh; */
+    /* background-color: yellow; */
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.video-right-text-1 p{
+    font-size: 15px;
+}
+
+.video-right-text-section img {
+    width: 50px;
+    height: 50px;
+}
+/* =====================================================================
+    SECOND PAGE END
+===================================================================== */
+
+
+/* =====================================================================
+    THIRD PAGE START
+===================================================================== */
+.stats-section {
+    text-align: center;
+    /* padding: 50px 0; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.stat-item {
+    margin-bottom: 30px;
+}
+.stat-value {
+    font-size: 62px;
+    font-weight: bold;
+    font-family: calibri
+}
+.stat-label {
+    font-size: 28px;
+    font-family: calibri;
+}
+/* =====================================================================
+    THIRD PAGE END
+===================================================================== */
+
+
+/* =====================================================================
+    FOUR PAGE START
+===================================================================== */
+.badge-section {
+    margin-top: 100px;
+}
+
+.section img {
+    width: 85%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.badge-section h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.badge-section h2 span{
+    color: #7eb842;
+}
+
+.badge-section p {
+    font-size: 18px;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.aword-button{
+    margin-top: 70px;
+}
+
+.btn-custom {
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #042325;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.btn-custom i{
+    background-color: #294345;
+    padding: 10px;
+    border-radius: 50%;
+}
+.btn-custom:hover{
+    color: white;
+}
+/* =====================================================================
+    FOUR PAGE END
+===================================================================== */
+
+
+/* =====================================================================
+    FIVE PAGE START
+===================================================================== */
+.five-page-section{
+    margin-top: 80px;
+    background-color: #002FA60D;
+    height: auto;
+    /* padding: 10px; */
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+}
+
+.Home-card-line{
+    width: 40px;
+    height: 4px;
+    background-color: #7eb842;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.card-left-side h4{
+    margin-top: 20px;
+}
+
+.card-left-side p{
+    font-weight: bold;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+.card-left-side h5{
+    padding-top: 100px;
+}
+
+.card-left-side {
+    padding-left: 40px;
+}
+
+.card-body img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-body .card-text{
+    font-family: calibri;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.card-body .card-title-1{
+    font-weight: bold;
+
+}
+/* =====================================================================
+    FIVE PAGE END
+===================================================================== */
+
+
+/* =====================================================================
+    DO YOU HAVE IDEA PAGE START
+===================================================================== */
+
+
+.call-to-action {
+    background-color: #ebfaf4;
+    padding-top: 5.375rem;
+    padding-bottom: 4.375rem;
+    text-align: center;
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.third-section-text-1{
+    display: inline;
+}
+
+.third-section-button{
+    margin-top: 1.75rem;
+    border-radius: 50%;
+}
+.cta-text {
+    margin-left: 1.25rem;
+    font-weight: bolder;
+    font-size: 2.125rem;
+    margin-bottom: 1.25rem;
+}
+
+.cta-text-2 {
+    margin-left: 0.938rem;
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    color: #c4c4c4;
+}
+.custom-btn {
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* =====================================================================
+    DO YOU HAVE IDEA PAGE END
+===================================================================== */
+
+/* =====================================================================
+FOOTER PAGE START
+===================================================================== */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1.25rem 0;
+}
+
+.second-footer{
+    background-color: #343a40;
+    color: white;
+    margin-top: 6px;
+    padding: 1.25rem 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-img img{
+    width: 130px;
+}
+
+.footer-icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-right: 1.25rem;
+}
+
+.footer-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-icon{
+    margin-top: 30px;
+    background-color: black;
+    padding: 12px 13px 12px 13px;
+    border-radius: 50%;
+    color: white;
+}
+
+.footer-phone{
+    margin-top: 0.938rem;
+    font-family: calibri;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.footer-email p i{
+    font-size: 23px;
+    margin-right: 8px;
+}   
+
+.footer-email .email-color{
+    color: #7eb842;
+    font-size: 1.25rem;
+}
+/* =====================================================================
+FOOTER PAGE END
+===================================================================== */

@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Add custom styles here if needed */
+/* =====================================================================
+    NAVBAR PAGE START
+===================================================================== */
+.nav-link {
+    margin: 5px;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+/* =====================================================================
+    NAVBAR PAGE END
+===================================================================== */
+
+
+/* =====================================================================
+    FIRST PAGE START
+===================================================================== */
+
+.first-page-section{
+    padding-top: 50px;
+    background-color: #ebfaf4;
+}
+.img-fluid{
+    width: 100%;
+    height: 90%;
+}
+.list-section p{
+    color: #7eb842;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-title{
+    color: #7eb842;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.list-section{
+    background-color: white;
+    width: 100%;
+    padding: 30px;
+}
+
+.list-section ul li{
+    list-style: none;
+    border-top: 0.5px solid rgba(205, 205, 205, 1);
+    border-bottom: 0.5px solid rgba(205, 205, 205, 1);
+    width: 20rem;
+    padding: 10px;
+
+}
+
+.contact-line{
+    width: 40px;
+    height: 4px;
+    background-color: #7eb842;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.service-list ul li{
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+/* =====================================================================
+    FIRST PAGE END
+===================================================================== */
+
+
+/* =====================================================================
+    DO YOU HAVE  PAGE START
+===================================================================== */
+
+.call-to-action {
+    background-color: #ebfaf4;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.third-section-text-1{
+    display: inline;
+}
+
+.third-section-button{
+    margin-top: 28px;
+    border-radius: 50%;
+}
+.cta-text {
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.cta-text-2 {
+    margin-left: 15px;
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #c4c4c4;
+}
+.custom-btn {
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+/* =====================================================================
+    DO YOU HAVE PAGE END
+===================================================================== */
+
+
+/* =====================================================================
+SECOND PAGE START
+===================================================================== */
+
+.second-page-section{
+    padding-top: 50px;;
+}
+
+.section-title-2 {
+    font-size: 18px;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.section-title-2 span{
+    margin-left: 10px;
+}
+
+.section-title-2 .text-line-2{
+    width: 30px;
+    height: 3px;
+    background-color: green;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.section-pera-1{
+    width: auto;
+    /* background-color: green; */
+    font-family: calibri;
+    font-weight: bolder;
+    font-size: 44px;
+}
+
+.section-pera-2{
+    font-family: calibri;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.client-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.client-card h4 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+.client-card p {
+    font-size: 18px;
+}
+
+.client-card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #ebfaf4;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease;
+}
+
+.client-card:hover{
+    transform: scale(1.05);
+}
+.client-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+/* =====================================================================
+SECOND PAGE END
+===================================================================== */
+
+/* =====================================================================
+FOOTER PAGE START
+===================================================================== */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+.second-footer{
+    background-color: #343a40;
+    color: white;
+    margin-top: 6px;
+    padding: 20px 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-img img{
+    width: 130px;
+}
+
+.footer-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-icon{
+    margin-top: 30px;
+    background-color: black;
+    padding: 12px 13px 12px 13px;
+    border-radius: 50%;
+    color: white;
+}
+
+.footer-phone{
+    margin-top: 15px;
+    font-family: calibri;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.footer-email p i{
+    font-size: 23px;
+    margin-right: 8px;
+}   
+
+.footer-email .email-color{
+    color: #7eb842;
+    font-size: 20px;
+}
+/* =====================================================================
+FOOTER PAGE END
+===================================================================== */
